@@ -210,7 +210,7 @@ const DeliveryCard = ({
               </p>
             </div>
             <div className="text-right">
-              <p className="font-medium">₹{initialEarnings.toFixed(2)}</p>
+              <p className="font-medium">₹{task.amount?.toFixed(2)}</p>
               <p className="text-xs text-delivery-green">
                 + ₹{initialEarnings.toFixed(2)} earnings
               </p>
