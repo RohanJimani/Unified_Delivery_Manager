@@ -47,7 +47,7 @@ const Register = () => {
 
   //   try {
   //     // Send data to the backend
-  //     const response = await fetch("http://localhost:5000/api/auth/register", {
+  //     const response = await fetch("https://unified-delivery-manager.onrender.com/api/auth/register", {
   //       method: "POST",
   //       headers: {
   //         "Content-Type": "application/json",
@@ -87,7 +87,7 @@ const Register = () => {
   data.append("phone", formData.phone);
 
   try {
-    const response = await fetch("http://localhost:5000/api/auth/register", {
+    const response = await fetch("https://unified-delivery-manager.onrender.com/api/auth/register", {
       method: "POST",
       body: data,
     });
