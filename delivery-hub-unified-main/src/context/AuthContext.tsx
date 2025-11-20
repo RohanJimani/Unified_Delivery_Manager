@@ -68,7 +68,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   setLoading(true);
   try {
     // Make an API call to the backend login endpoint
-    const response = await fetch("http://localhost:5000/api/auth/login", {
+    const response = await fetch("https://unified-delivery-manager.onrender.com/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
